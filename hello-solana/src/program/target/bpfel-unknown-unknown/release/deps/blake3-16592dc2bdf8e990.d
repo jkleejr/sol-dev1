@@ -1,0 +1,12 @@
+/Users/john/Desktop/solana-dev1/hello-solana/src/program/target/bpfel-unknown-unknown/release/deps/blake3-16592dc2bdf8e990.rmeta: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/guts.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/platform.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/portable.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/traits.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/join.rs
+
+/Users/john/Desktop/solana-dev1/hello-solana/src/program/target/bpfel-unknown-unknown/release/deps/libblake3-16592dc2bdf8e990.rlib: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/guts.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/platform.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/portable.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/traits.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/join.rs
+
+/Users/john/Desktop/solana-dev1/hello-solana/src/program/target/bpfel-unknown-unknown/release/deps/blake3-16592dc2bdf8e990.d: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/guts.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/platform.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/portable.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/traits.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/join.rs
+
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/lib.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/guts.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/platform.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/portable.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/traits.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/blake3-1.3.3/src/join.rs:
