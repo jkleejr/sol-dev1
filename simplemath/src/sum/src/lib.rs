@@ -9,14 +9,14 @@ use solana_program::{
 };
 
 #[derive(BorshDeserialize, BorshDeserialize, Debug)]
-pub struct MathStuffSum {
+pub struct SimpleMathSum {
     pub sum: u32,
 }
 
 entrypoint!(process_instruction); // establish entrypoint using macro
 
 fn process_instruction( // solana enter program on process_instruction
-    // necessary parameters for entrypoint
+    // parameters for entrypoint
     _program_id: &Pubkey,
     _accounts: &[AccountInfo],  // accounts doing business 
     _instruction_data: &[u8],    // instruction data, a byte array 
@@ -29,11 +29,26 @@ fn process_instruction( // solana enter program on process_instruction
     let account = next_account_info(accounts_iter)?; 
 
     // the account must be owned by the program in order to modify its data
-    // big solana rule
+    // solana rule
     if account.owner != program_id {
         msg!("Account does not have the correct program id");
         return Err(ProgramError::IncorrectProgramId);
     }
+
+    msg!("Debug output:")
+    msg!("Account ID: {}", account.key);
+    msg!("Executable?: {}", account.executable)
+    msg!("Lamports: {:#?}", account.lamports);
+    msg!("Debug output complete.");
+
+    msg!("Adding 1 to sum.")
+
+    let mut simplemath = SimpleMathSum::try_fromslice(&account.data.borrow())?; // string slice representation of the byte that make up the schema
+    // deserialize slice into simplemath struct
+    simplemath.sum += 1;
+    simplemath.serialize(&mut & mut account.data.borrow_mut()[..])?; // reserialize back into borsh
+
+    msg!("Current sum is now: {}", simplemath.sum);
 
     Ok(())
 }
