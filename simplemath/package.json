@@ -1,7 +1,7 @@
 {
     "name": "simplemath",
     "version": "1.0.0",
-    "description": "from hello-world, Joe dev@Solana",
+    "description": "from hello-world",
   
     "scripts": {
         "clean": "./scripts/cicd.sh clean",

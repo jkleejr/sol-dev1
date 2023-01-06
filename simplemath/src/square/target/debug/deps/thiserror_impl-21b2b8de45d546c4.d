@@ -1,0 +1,12 @@
+/Users/john/Desktop/solana-dev1/simplemath/src/square/target/debug/deps/libthiserror_impl-21b2b8de45d546c4.dylib: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/ast.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/attr.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/expand.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/fmt.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/generics.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/prop.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/valid.rs
+
+/Users/john/Desktop/solana-dev1/simplemath/src/square/target/debug/deps/thiserror_impl-21b2b8de45d546c4.d: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/ast.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/attr.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/expand.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/fmt.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/generics.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/prop.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/valid.rs
+
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/lib.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/ast.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/attr.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/expand.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/fmt.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/generics.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/prop.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.38/src/valid.rs:
