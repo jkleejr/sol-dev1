@@ -6,7 +6,7 @@
     "scripts": {
         "start": "ts-node src/client/main.ts",
         "clean": "npm run clean:program",
-        "build:program": "cargo build-bpf --manifest-path=./src/program/Cargo.toml --bpf-out-dir=dist/program",
+        "build:program": "cargo build-sbf --manifest-path=./src/program/Cargo.toml --sbf-out-dir=dist/program",
         "clean:program": "cargo clean --manifest-path=./src/program/Cargo.toml && rm -rf ./dist",
         "test:program": "cargo test-bpf --manifest-path=./src/program/Cargo.toml"
     },

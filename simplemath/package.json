@@ -8,7 +8,7 @@
         "reset": "./scripts/cicd.sh reset",
         "build": "./scripts/cicd.sh build",
         "deploy": "./scripts/cicd.sh deploy",
-        "reset-and-build": "./scripts/cicd.sh reset-and-build",
+        "reset-and-build": "./scripts/cicd.sh build-and-deploy",
         "example:sum": "ts-node ./src/client/sum.ts",
         "example:square": "ts-node ./src/client/square.ts"
     },

@@ -4,11 +4,11 @@ use solana_program::{
     entrypoint,
     entrypoint::ProgramResult, 
     msg,
-    program_error::programError,
+    program_error::ProgramError,
     pubkey::Pubkey,
 };
 
-#[derive(BorshDeserialize, BorshDeserialize, Debug)]
+#[derive(BorshDeserialize, BorshSerialize, Debug)]
 pub struct SimpleMathSum {
     pub sum: u32,
 }
@@ -26,7 +26,7 @@ fn process_instruction( // solana enter program on process_instruction
     let accounts_iter = &mut accounts.iter();
 
     // get the account to say hello to
-    let account = next_account_info(accounts_iter)?; 
+    let account = account_info(accounts_iter)?; 
 
     // the account must be owned by the program in order to modify its data
     // solana rule
@@ -35,13 +35,13 @@ fn process_instruction( // solana enter program on process_instruction
         return Err(ProgramError::IncorrectProgramId);
     }
 
-    msg!("Debug output:")
+    msg!("Debug output:");
     msg!("Account ID: {}", account.key);
-    msg!("Executable?: {}", account.executable)
+    msg!("Executable?: {}", account.executable);
     msg!("Lamports: {:#?}", account.lamports);
     msg!("Debug output complete.");
 
-    msg!("Adding 1 to sum.")
+    msg!("Adding 1 to sum.");
 
     let mut simplemath = SimpleMathSum::try_fromslice(&account.data.borrow())?; // string slice representation of the byte that make up the schema
     // deserialize slice into simplemath struct

@@ -12,7 +12,7 @@ class SimpleMathSquare { // struct this time its a class
 }
 
 const SimpleMathSquareSchema = new Map([ // map to turn it into a struct, this way it matches
-    [SimpleMathSquare, {kind: 'struct', fields: [['sum', 'u32']]}] 
+    [SimpleMathSquare, {kind: 'struct', fields: [['square', 'u32']]}] 
 ]); // this creates the byte representation
 
 const SIMPLEMATH_SIZE = borsh.serialize( // serialization
@@ -22,7 +22,7 @@ const SIMPLEMATH_SIZE = borsh.serialize( // serialization
 
 
 async function main() {
-    await math.example(`sum`, SIMPLEMATH_SIZE);
+    await math.example(`square`, SIMPLEMATH_SIZE);
 }
 
 main().then(

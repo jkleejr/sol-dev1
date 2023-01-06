@@ -38,7 +38,7 @@ const PROGRAM_PATH = path.resolve(__dirname, '../../dist/program');
 export async function connect(){
     connection = new Connection('https://api.devnet.solana.com','confirmed',);
 
-    console.log('successfully connected to Solana devnet');
+    console.log('yo! successfully connected to Solana devnet');
 }
 
 // get, use local keypair for client
@@ -53,7 +53,7 @@ export async function getLocalAccount(){
     );
     await connection.confirmTransaction(airdropRequest);
 
-    console.log(`local account loaded successfully.`);
+    console.log(`local account loaded successfully`);
     console.log(`local account's address is:`);
     console.log(`   ${localKeypair.publicKey}`);
 }
@@ -117,11 +117,11 @@ export async function configureClientAccount(accountSpaceSize: number) {
 }
 
 // ping the program
-export async function pingProgram(programName: string){
-    console.log(`let's run it`);
+export async function pingProgram(programName: string){ 
+    console.log(`let's run it!`);
     console.log(`pinging ${programName} program...`);
 
-    const instruction = new TransactionInstruction({
+    const instruction = new TransactionInstruction({ 
         keys: [{pubkey: clientPubKey, isSigner: false, isWritable: true}],
         programId,
         data: Buffer.alloc(0), // empty instruction data
@@ -132,7 +132,7 @@ export async function pingProgram(programName: string){
         [localKeypair],
     );
 
-    console.log(`ping successful`);
+    console.log(`ping successful. nice!`);
 }
 
 // run example (main)

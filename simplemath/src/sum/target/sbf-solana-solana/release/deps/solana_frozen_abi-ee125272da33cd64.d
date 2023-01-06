@@ -1,0 +1,10 @@
+/Users/john/Desktop/solana-dev1/simplemath/src/sum/target/sbf-solana-solana/release/deps/solana_frozen_abi-ee125272da33cd64.rmeta: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/abi_digester.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/abi_example.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/hash.rs
+
+/Users/john/Desktop/solana-dev1/simplemath/src/sum/target/sbf-solana-solana/release/deps/libsolana_frozen_abi-ee125272da33cd64.rlib: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/abi_digester.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/abi_example.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/hash.rs
+
+/Users/john/Desktop/solana-dev1/simplemath/src/sum/target/sbf-solana-solana/release/deps/solana_frozen_abi-ee125272da33cd64.d: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/abi_digester.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/abi_example.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/hash.rs
+
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/lib.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/abi_digester.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/abi_example.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.14.11/src/hash.rs:

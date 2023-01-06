@@ -15,7 +15,7 @@ import path from 'path';
 // keypair used to create on-chain Rust program
 const PROGRAM_KEYPAIR_PATH = path.join(
     path.resolve(__dirname, '../../dist/program'),
-    'hello_solana-keypair.json'
+    'program-keypair.json'
     );
 
     async function main() {
