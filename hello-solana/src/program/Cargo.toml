@@ -16,5 +16,3 @@ solana-sdk = "1.9.9"
 crate-type = ["cdylib", "lib"]
 #creates a .so file which allows us to run Solana programs
 
-
-
