@@ -31,21 +31,21 @@ case $1 in
             cargo build-bpf --manifest-path=./src/$program/Cargo.toml --bpf-out-dir=./dist/program
             solana program deploy dist/program/$program.so
         done;;
-    "reset-and-build")
-        rm -rf ./node_modules
-        for x in $(solana program show --programs | awk 'RP==0 {print $1}'); do 
+    "reset-and-build") 
+        rm -rf ./node_modules # wipe all the node modules
+        for x in $(solana program show --programs | awk 'RP==0 {print $1}'); do  # drop any programs running on Solana
             if [[ $x != "Program" ]]; 
             then 
                 solana program close $x; 
             fi
         done
-        rm -rf dist/program
-        for program in "${SOLANA_PROGRAMS[@]}"; do
+        rm -rf dist/program #remove any program .so files
+        for program in "${SOLANA_PROGRAMS[@]}"; do #build each program and deploy them
             cargo clean --manifest-path=./src/$program/Cargo.toml
             cargo build-bpf --manifest-path=./src/$program/Cargo.toml --bpf-out-dir=./dist/program
             solana program deploy dist/program/$program.so
         done
-        npm install
+        npm install #prepare our client 
         solana program show --programs
         ;;
 esac

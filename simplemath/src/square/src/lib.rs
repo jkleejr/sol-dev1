@@ -17,9 +17,9 @@ entrypoint!(process_instruction); // establish entrypoint using macro
 
 fn process_instruction( // solana enter program on process_instruction
     // parameters for entrypoint
-    _program_id: &Pubkey,
-    _accounts: &[AccountInfo],  // accounts doing business 
-    _instruction_data: &[u8],    // instruction data, a byte array 
+    program_id: &Pubkey,
+    accounts: &[AccountInfo],  // accounts doing business 
+    instruction_data: &[u8],    // instruction data, a byte array 
 ) -> ProgramResult {
 
     // iterating accounts is safer than indexing
