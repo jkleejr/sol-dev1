@@ -80,6 +80,8 @@ export async function configureClientAccount(accountSpaceSize: number) {
     clientPubKey = await PublicKey.createWithSeed(  
     // use createWithSeed, allows us to create this key 'test1' with predictable seed value
     // makes programid the owner of this account we create
+    // changing seed makes a new, seperate account (if we switch to `test2`)
+    // if we switch back to `test1` it will recognize the saved account
         localKeypair.publicKey,
         SEED,
         programId,
@@ -96,8 +98,8 @@ export async function configureClientAccount(accountSpaceSize: number) {
 
         const transaction = new Transaction().add(
             SystemProgram.createAccountWithSeed({
-                fromPubKey: localKeypair.publicKey,
-                basePubKey: localKeypair.publicKey,
+                fromPubkey: localKeypair.publicKey,
+                basePubkey: localKeypair.publicKey,
                 seed: SEED, 
                 newAccountPubkey: clientPubKey,
                 lamports: LAMPORTS_PER_SOL,
@@ -120,7 +122,7 @@ export async function pingProgram(programName: string){
     console.log(`pinging ${programName} program...`);
 
     const instruction = new TransactionInstruction({
-        keys: [{pubkey: clientPubKey, isSinger: false, isWritable: true}],
+        keys: [{pubkey: clientPubKey, isSigner: false, isWritable: true}],
         programId,
         data: Buffer.alloc(0), // empty instruction data
     });
