@@ -1,0 +1,1 @@
+{"rustc":17424618724053001979,"features":"","target":0,"profile":0,"path":0,"deps":[[11510082311025374961,"build_script_build",false,9573368765638184834]],"local":[{"RerunIfChanged":{"output":"sbf-solana-solana/release/build/crossbeam-utils-ce80f4935bb074df/output","paths":["no_atomic.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

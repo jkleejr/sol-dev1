@@ -1,0 +1,10 @@
+/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/deps/solana_remote_wallet-f543dbd783eaac74.rmeta: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/ledger.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/ledger_error.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/locator.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/remote_keypair.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/remote_wallet.rs
+
+/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/deps/solana_remote_wallet-f543dbd783eaac74.d: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/ledger.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/ledger_error.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/locator.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/remote_keypair.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/remote_wallet.rs
+
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/lib.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/ledger.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/ledger_error.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/locator.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/remote_keypair.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.13/src/remote_wallet.rs:

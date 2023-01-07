@@ -1,0 +1,18 @@
+/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/deps/typenum-3aead393c73334f2.rmeta: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/bit.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/int.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/marker_traits.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/operator_aliases.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/private.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/type_operators.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/uint.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/array.rs /Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/build/typenum-9f3d6acf75d002ee/out/op.rs /Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/build/typenum-9f3d6acf75d002ee/out/consts.rs
+
+/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/deps/typenum-3aead393c73334f2.d: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/bit.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/int.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/marker_traits.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/operator_aliases.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/private.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/type_operators.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/uint.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/array.rs /Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/build/typenum-9f3d6acf75d002ee/out/op.rs /Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/build/typenum-9f3d6acf75d002ee/out/consts.rs
+
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/lib.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/bit.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/int.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/marker_traits.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/operator_aliases.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/private.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/type_operators.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/uint.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.15.0/src/array.rs:
+/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/build/typenum-9f3d6acf75d002ee/out/op.rs:
+/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/build/typenum-9f3d6acf75d002ee/out/consts.rs:
+
+# env-dep:TYPENUM_BUILD_CONSTS=/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/build/typenum-9f3d6acf75d002ee/out/consts.rs
+# env-dep:TYPENUM_BUILD_OP=/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/build/typenum-9f3d6acf75d002ee/out/op.rs

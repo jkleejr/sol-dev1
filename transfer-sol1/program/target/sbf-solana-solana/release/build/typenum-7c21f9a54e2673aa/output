@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/sbf-solana-solana/release/build/typenum-7c21f9a54e2673aa/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/sbf-solana-solana/release/build/typenum-7c21f9a54e2673aa/out/op.rs

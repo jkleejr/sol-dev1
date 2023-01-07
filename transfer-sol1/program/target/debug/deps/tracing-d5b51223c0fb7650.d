@@ -1,0 +1,13 @@
+/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/deps/tracing-d5b51223c0fb7650.rmeta: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/macros.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/dispatcher.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/field.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/instrument.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/level_filters.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/span.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/stdlib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/subscriber.rs
+
+/Users/john/Desktop/solana-dev1/transfer-sol1/program/target/debug/deps/tracing-d5b51223c0fb7650.d: /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/lib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/macros.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/dispatcher.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/field.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/instrument.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/level_filters.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/span.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/stdlib.rs /Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/subscriber.rs
+
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/lib.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/macros.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/dispatcher.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/field.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/instrument.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/level_filters.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/span.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/stdlib.rs:
+/Users/john/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.34/src/subscriber.rs:
