@@ -34,9 +34,7 @@ export class CalculatorInstructions {
 }
 
 export const CalculatorInstructionsSchema = new Map([
-  [CalculatorInstructions, {kind: 'struct', fields: [
-    ['operation', 'u32'], ['operating_value', 'u32']
-  ]}],
+  [CalculatorInstructions, {kind: 'struct', fields: [['operation', 'u32'], ['operating_value', 'u32']]}],
 ]);
 
 export const CALCULATOR_INSTRUCTIONS_SIZE = borsh.serialize(
@@ -56,4 +54,4 @@ main().then(
       process.exit(-1);
     },
   );
-  
+
